@@ -1,0 +1,200 @@
+
+/*
+let => lma btt3rf gwa kosin btb2a local 3lihom
+var => lma btt3rf gwa kosin btb2a global 3ady enma function btb2a local 3liha
+const => ana m4 bst5dmha ela fi el values elyy m4 btt8yr
+*/
+
+
+
+
+
+/*
+var  => function scope
+let  => block scope
+function test()
+{
+     var y = 35465;
+}
+
+*/
+
+
+
+/*
+    js Classes 
+    check for caniuse.com
+    just a syntax sugar
+    no functions it's now a method
+    keywords : class , extends , constructor , super , set 
+
+class person
+{
+    constructor()
+    {
+        console.log("person class constructor");
+        this.name="ahmed";
+        this.job = "Developer";
+    }
+}
+
+
+
+
+class person
+{
+    constructor()
+    {
+        console.log("person class constructor");
+        this.name="ahmed";
+        this.job = "Developer";
+    }
+    getJob()
+    {
+        return this.job;
+    }
+    get personName()
+    {
+       return this.name;
+    }
+ 
+    set personName1(n)
+    {
+        this.name = n;
+    }
+}
+
+
+//let p = new person();
+
+//console.log(p.getJob())
+//console.log(p.setPersonName("sayed"))
+
+//p.personName1 = "hihi";
+
+//console.log(p.personName);
+
+
+
+class Table 
+{
+    constructor()
+    {
+        console.log("Table Class constructor ");
+        this.width="300";
+        this.material = "wood";
+        this.price = 2500;
+    }
+
+    get getPrice()
+    {
+        return this.price;
+    }
+
+}
+
+class LivingTable extends Table
+{
+
+    constructor()
+    {   
+        super();        
+        console.log("LivingTable Class constructor ");        
+    }
+
+}
+
+
+let table1 = new LivingTable();
+console.log(table1.getPrice);
+
+
+
+//// maps
+
+we used prev Hash-objects but 
+    1- just an object with no extra features 
+    2- Not easy for clearing or getting size 
+
+    class person
+{
+
+     
+    constructor()
+    {
+        this.name ;
+        this.age = 25;
+        this.salary ;
+        this.country ;
+        
+    }
+    
+    getAge1()
+    {
+        return this.age;
+    }
+    
+    get getAge()
+    {
+        return this.age;        
+    }
+
+    set defName(n)
+    {
+        this.name = n;
+    }
+
+    get getName()
+    {
+        return this.name;
+    }
+}
+
+
+var p = new person();
+p.defName("aliwa")
+p.defName = "ali";
+console.log(p.getName)
+
+
+
+    
+let myData  = new Map();
+
+
+myData.set("userName" , "ahmed");
+myData.set("Age" , 25);
+myData.set("isLogin" , true);
+
+console.log(myData.has("userName"));
+
+//myData.clear();
+
+myData.delete("Age");
+console.log(myData.size);
+
+
+*/
+
+
+/*
+var userData = { userName:'ahmed' , age:25 , salary:654564}
+console.log( userData.userName )
+
+*/
+
+
+var userData = new Map();
+
+userData.set("userName" , "Ahmed");
+userData.set("userAge" , 25);
+userData.set("userSalary" , 654564);
+
+
+userData.delete("userName")
+userData.clear();
+
+console.log( userData.get("userName") )
+
+
+

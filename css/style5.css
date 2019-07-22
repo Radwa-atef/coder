@@ -1,0 +1,481 @@
+
+body
+{
+    padding-top: 50px;
+    
+    font-family: "segoe ui light";
+}
+.navbar
+{
+    overflow: auto;
+    font-weight: 600;
+    
+}
+.navbar-brand
+{
+    margin-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#navbarSupportedContent
+{
+    margin-right: 70px;
+   
+}
+.nav-item
+{
+    padding-left: 20px;
+}
+.header
+{
+   
+  background-image:url(../image/cover.jpg);
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+.header h1
+{
+    margin-top: 180px;
+    font-size: 55px;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 0px 5px 10px #af2424;
+}
+@media only screen and (max-width:600px)
+{
+    .header h1
+    {
+        font-size: 30px; 
+    }
+}
+.header .backg
+{
+  background-color: rgba(236, 51, 55, 0.7);
+    width: 100% 100%;
+    height: 100%;
+    
+}
+.btn1
+{
+    padding: 10px 25px;
+    border:solid 2px #fff;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.2s;
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+}
+.btn1:hover
+{
+  background-color: #fff;
+    color:hotpink;
+}
+.aboutme h2,h3,h5
+{
+  color:  #444444 ;
+    font-weight: 600;
+}
+
+.aboutme .about2 p
+{
+    color: gray;
+    line-height: 25px;
+    font-size: 18px;
+}
+.icon i
+{
+    margin-right: 10px;
+    border: solid 1px gray;
+    padding: 15px;
+    color: dimgray;
+    transition: all 0.2s;
+}
+.icon i:hover
+{
+    background-color: #ec3237;
+    color: #fff;
+    border: none;
+}
+.prog p
+{
+   color: gray;
+    line-height: 25px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.progress
+{
+    margin-bottom: 20px;
+    
+}
+.progress_title
+{
+    color: #777777;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.btnn .btn
+{
+        width: 100%;
+        margin-bottom: 20px;
+}
+.btn2
+{
+background-color: #ec3237;
+    color:#fff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.5s;
+ 
+}
+.btn2:hover
+{
+    background-color: orangered;
+    
+}
+.what
+{
+    background-color:#f5f5f5;
+}
+.what h2
+{
+    margin-top: 50px;
+}
+.what .parag p
+{
+    font-size: 16px;
+    font-weight: 300;
+    color: #777777; 
+    padding-bottom: 50px;
+}
+
+.what .what1
+{
+    background-color: #fff;
+    height: 200px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    
+}
+.what .what1 i
+{
+     width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+    color: #777777;
+    transition: all 0.2s;
+    
+}
+.what .what1:hover i
+{
+    background-color: #ec3237;
+    color: #fff;
+}
+.what .what1 h5
+{
+  margin-left: 15px;  
+}
+.what .what1:hover h5
+{
+   color: #ec3237; 
+    transition: all 0.2;
+}
+
+.what .what1 p
+{
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: gray;
+    
+}
+.number
+{
+   background-image:url(../image/project-counter.jpg);
+    background-position: 30% 35%;
+      
+}
+
+.number .num
+{
+    border: solid 1px gray;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.number .num i
+{  
+    font-size: 25px;
+   color:  #ec3237;
+   margin-bottom: 10px;
+    
+}
+.number .num p
+{
+   color:  #ec3237;
+    font-weight: 600;
+}
+.portfolio
+{
+    background-color:#f5f5f5;
+    padding-top: 40px;
+}
+.portfolio .port h2
+{
+    font-size:bold;
+    color: #444444;
+}
+
+.portfolio .portf
+{
+    background-color: #fff;
+    text-align: center;
+    height: 300px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    
+}
+.portfolio .portf h5
+{
+    margin-top: 30px;
+}
+.portfolio .portf1
+{
+    position: relative;
+}
+
+.portfolio .portf1 i
+{
+    position: absolute;
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    top: 92%;
+    right: 48%;
+    transition: all 0.2s;
+}
+.portfolio .portf1:hover i
+{
+    background-color:#ec3237;
+
+}
+.port1 .nav-pills .nav-link.active
+{
+    background-color: #ec3237;
+    color: #fff;
+}
+.port1 .nav-pills .nav-link
+{
+    color: #777777;
+}
+.slider
+{
+    background-image: url(../image/client-testimonial.jpg);
+    background-attachment: fixed;
+    background-position: 10% 10%;
+    height: 450px;
+}
+.slider1
+{
+   background-color: rgba(0,0,0,0.5);
+    height: 100%;  
+}
+
+.carousel-item
+{
+    background-color: rgba(0,0,0,0);
+    height: 80%;
+    font-weight: bolder;
+  
+}
+.carousel-caption 
+{
+    font-weight: 600;
+}
+.carousel-caption h5
+{
+    color:#ec3237; 
+    font-size: 30px;
+}
+
+.carousel-item  img
+{
+  
+    border:solid 7px #ec3237;
+    border-radius: 70px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    
+}
+.hireme h2
+{
+font-weight: 600;
+    color:#444444; 
+}
+.hireme p
+{
+    color: gray;
+    line-height: 30px;
+    font-size: 18px;
+}
+.hireme input
+{ 
+    border: 2px solid #cccccc;
+    width: 100%;
+    padding: 6px 12px;
+    display:block;
+    margin-bottom: 15px;
+}
+.hireme .in
+{
+    padding-bottom: 100px;
+}
+
+
+.btn-danger
+{
+    background-color:#ec3237;
+    border: none;
+    margin-top: 10px;
+   
+}
+.det i
+{
+   color:   #777777;
+   border:solid 2px white;
+    padding: 10px 20px;
+}
+.footer
+{
+    text-align: center;
+    color: darkgray;
+    height: 100px;
+    padding: 30px 0px;
+    background-color: #ffffff;
+    border-top: 1px solid #fafafa;
+}
+#options-container
+{
+    width: 300px;
+    position: fixed;
+    top: 300px;
+    left: 0px;
+    z-index: 64656;
+   
+}
+#options-container >i
+{
+    float: left;
+    background-color:black;
+    color:#ec3237;
+    padding: 5px;
+}
+#options-container img
+{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+#options-box
+{
+    float: left;
+    background-color: black;
+    color: #ec3237;
+     padding: 10px;
+}
+#options-box ul li
+{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+#options-box h5,ul li
+{
+   color: white;
+}
+#btnUp
+{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 63636636;
+}
+#loading
+{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(236, 51, 55, 0.8);
+	z-index: 65456456465;
+}
+.spinner {
+  margin: 200px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+
+.spinner > div {
+  background-color:black;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+
